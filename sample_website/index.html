@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Form Validation</title>
+	<script type = "text/javascript" src = "javascript.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+	<body>
+		<main>
+			<h1>Validation Form</h1>
+			<form name = "myForm" class="asd" >
+				<div>
+					Name
+					<input type="text" name="Name" />
+				</div>
+				<div>
+					Mobile Number
+					<input type = "text" name = "mob" maxlength = "10"/>
+				</div>
+				<div>
+					Email
+					<input type = "text" name = "EMail" />
+				</div>
+				<div>
+					College Name
+					<input type = "text" name = "college" />
+				</div>
+				<div>
+					Degree
+					<select name = "degree">
+						<option value = "-1">Select</option>
+						<option value = "1">B.E</option>
+						<option value = "2">B.Sc.</option>
+						<option value = "3">Law</option>
+						<option value = "4">Arts</option>
+						<option value = "5">C.A.</option>
+					</select>
+				</div>
+				<input type = "submit" value = "Submit" onclick = "return(validate());"/>
+			</form>
+		</main>
+	</body>
+</html>
