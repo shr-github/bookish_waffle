@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	padding-top: 10px;
+	background:#000000;
+	font-family: 'Josefin Sans', sans-serif;
+}
+main {
+	max-width: 500px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	background: white; 
+	border-radius: 5px; 
+	overflow: hidden;
+}
+h1 {
+	font-size: 28px; 
+	font-weight: bold;
+	background: #ff3a3a; 
+	color: white;
+	text-align: center; 
+	padding: 20px; margin-bottom: 20px;
+}
+.asd {
+	padding: 0 50px;
+}
+.asd div {
+	position: relative;
+	margin-bottom: 25px;
+} 
+.asd input {
+	height: 46px;
+	width: 400px;
+	border: 1px solid #999;
+	line-height: 24px;
+	display: block;
+	padding: 10px;
+	outline: none; 
+	border-radius: 3px;
+}
+.asd select {
+	width: 100px;
+	height: 44px;
+	border-radius: 3px;
+	outline: none; 
+}
